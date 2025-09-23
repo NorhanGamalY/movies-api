@@ -1,0 +1,13 @@
+{
+  "name": "movies-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "json-server --watch movies.json --host 0.0.0.0 --port ${PORT:-3000} --static ./public",
+    "start:win": "json-server --watch movies.json --host 0.0.0.0 --port 3000 --static ./public"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3"
+  },
+  "engines": { "node": ">=18" }
+}
