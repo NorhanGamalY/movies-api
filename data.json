@@ -1,19 +1,19 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "movies": [
+    { "id": 1, "name": "Inception", "category": "Sci-Fi / Action", "banner": "https://norhangamaly.github.io/movies-api/public/1.png", "hero": "Dom Cobb (Leonardo DiCaprio)", "year": 2010 ,  "director": "Christopher Nolan", 
+      "rating": 8.8  },
+    { "id": 2, "name": "Interstellar", "category": "Sci-Fi / Adventure / Drama", "banner": "https://norhangamaly.github.io/movies-api/public/3.png", "hero": "Joseph Cooper (Matthew McConaughey)", "year": 2014,  "director": "Christopher Nolan", 
+      "rating": 8.7  },
+    { "id": 3, "name": "Titanic", "category": "Romance / Drama", "banner": "https://norhangamaly.github.io/movies-api/public/5.png", "hero": "Jack Dawson (Leonardo DiCaprio)", "year": 1997,    "director": "James Cameron", 
+      "rating": 7.9  },
+    { "id": 4, "name": "The Dark Knight", "category": "Action / Crime / Drama", "banner": "https://norhangamaly.github.io/movies-api/public/6.png", "hero": "Bruce Wayne / Batman (Christian Bale)", "year": 2008,   "director": "Christopher Nolan", 
+      "rating": 9.0  },
+    { "id": 5, "name": "Avatar", "category": "Sci-Fi / Adventure", "banner": "https://norhangamaly.github.io/movies-api/public/4.png", "hero": "Jake Sully (Sam Worthington)", "year": 2009,     "director": "James Cameron", 
+      "rating": 7.9  },
+    { "id": 6, "name": "Gladiator", "category": "Action / Drama / History", "banner": "https://norhangamaly.github.io/movies-api/public/7.png", "hero": "Maximus Decimus Meridius (Russell Crowe)", "year": 2000,    "director": "Ridley Scott", 
+      "rating": 8.5  },
+    { "id": 7, "name": "The Godfather", "category": "Crime / Drama", "banner": "https://norhangamaly.github.io/movies-api/public/2.png", "hero": "Michael Corleone (Al Pacino)", "year": 1972,    "director": "Francis Ford Coppola", 
+      "rating": 9.2  }
+  ]
 }
+
